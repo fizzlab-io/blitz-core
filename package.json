@@ -1,0 +1,7 @@
+{
+  "name": "blitz-core",
+  "version": "1.0.0",
+  "description": "This plugin is used to add core functionality to the theme.",
+  "keywords": ["blitz", "wordpress", "plugin", "wordpress-plugin"],
+  "author": "FizzLab"
+}
