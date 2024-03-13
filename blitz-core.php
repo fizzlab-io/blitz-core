@@ -2,21 +2,19 @@
 
 /**
  * Plugin Name: Blitz Core
- * Plugin URI: https://fizzlab.io/wordpress/plugins/blitz-core
- * Description: This plugin is used to add core functionality to the theme.
+ * Plugin URI: https://github.com/fizzlab-io/blitz-core
+ * Description: This plugin is adds core functionality to the Blitz WordPress theme.
  * Version: 1.0
  * Author: FizzLab
  * Author URI: https://fizzlab.io
  */
 
+namespace FizzLab\Blitz\Core;
+
 if (!defined("ABSPATH")) {
     exit;
 }
 
-class Bltiz {
+use function FizzLab\namespace_test;
 
-    public function __construct() {
-        
-    }
-
-}
+namespace_test();
